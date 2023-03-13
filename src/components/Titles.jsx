@@ -1,14 +1,11 @@
 import React from "react";
-import { Icon } from '@iconify/react';
-import linkedinIcon from '@iconify/icons-line-md/linkedin';
-import emailIcon from '@iconify/icons-line-md/email';
 
 export default function Titles(){
     return (
         <div>
-            <h1>Titles</h1>
-            <Icon icon={linkedinIcon} />
-            <Icon icon={emailIcon} />
+            <img src="https://www.planetclaire.tv/wp-content/uploads/1991/02/the-simpsons-troy-mcclure.jpg" alt="profile picture" />
+            <h1>Tarndeep</h1>
+            <h4>Frontend Developer</h4>
         </div>
 
     )

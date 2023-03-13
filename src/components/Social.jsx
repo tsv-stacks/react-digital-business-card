@@ -1,7 +1,14 @@
 import React from "react";
+import { Icon } from '@iconify/react';
+import linkedinIcon from '@iconify/icons-line-md/linkedin';
+import emailIcon from '@iconify/icons-line-md/email';
 
 export default function Social(){
     return (
-        <h1>Social</h1>
+       <div>
+           <Icon icon={linkedinIcon} />
+            <Icon icon={emailIcon} />
+       </div>
+
     )
 }
