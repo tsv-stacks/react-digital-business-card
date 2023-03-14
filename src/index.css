@@ -26,3 +26,52 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.centre {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.my-title {
+  padding-top: 5px;
+  margin-top: 0;
+  font-weight: normal;
+  color: #f3bf99;
+  padding-bottom: 15px;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Icon--emailIcon,
+.icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.blue {
+  background-color: #5093e2;
+  color: whitesmoke;
+}
+
+#about {
+  margin: 0 auto;
+  width: 80%;
+}

@@ -5,10 +5,9 @@ import emailIcon from '@iconify/icons-line-md/email';
 
 export default function Social(){
     return (
-       <div>
-           <Icon icon={linkedinIcon} />
-            <Icon icon={emailIcon} />
+       <div className="flex">
+        <button className="btn"><Icon icon={emailIcon} className="icon" /> Email</button>
+        <button className="btn blue"><Icon icon={linkedinIcon} className="icon"/> LinkedIn</button>
        </div>
-
     )
 }
