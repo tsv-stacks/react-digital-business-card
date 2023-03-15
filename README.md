@@ -2,6 +2,8 @@
 
 This is a simple React project that shows a static page of a business card styled page with links to all my social media pages.
 
+Live Page: https://tsv-stacks-business-card-react.netlify.app/
+
 ## Installation
 
 To install the project dependencies, run the following command:
