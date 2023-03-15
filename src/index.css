@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 body,
@@ -23,8 +22,10 @@ body {
   margin-bottom: 10vh;
   border-radius: 15px;
   border: 1px solid black;
+  background-color: #1a1b21;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .centre {
@@ -47,12 +48,32 @@ body {
 
 .btn {
   padding: 8px 20px;
+  background-color: whitesmoke;
+  color: #1a1b21;
   margin: 0;
   border-radius: 10px;
   font-size: 1rem;
   display: flex;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.blue:hover {
+  color: #5093e2;
+  background-color: whitesmoke;
+}
+
+.white-btn:hover {
+  background-color: #1a1b21;
+  color: whitesmoke;
 }
 
 .Icon--emailIcon,
@@ -74,4 +95,25 @@ body {
 #about {
   margin: 0 auto;
   width: 80%;
+}
+
+.footer-icon {
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.footer-icon:hover {
+  background-color: whitesmoke;
+  color: #1a1b21;
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+footer {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  height: 5%;
+  vertical-align: bottom;
 }
